@@ -1,38 +1,31 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://openaccessazania-blog.vercel.app/_next/image?url=%2Fimages%2Foaa-logo.png&w=384&q=75" alt="Logo" width="200" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Open Access Azania Blog</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An simple full-stack blog application built with NextJS using a Neubrutalist style. 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://openaccessazania-blog.vercel.app/">View Deployment</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/yousha-shoaib/openaccessazania-blog/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/yousha-shoaib/openaccessazania-blog/pulls">Create Pull Request</a>
   </p>
 </div>
 
+<!-- PROJECT SHIELDS -->
+![](https://img.shields.io/github/contributors/yousha-shoaib/openaccessazania-blog?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/yousha-shoaib/openaccessazania-blog?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/yousha-shoaib/openaccessazania-blog?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/yousha-shoaib/openaccessazania-blog?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/yousha-shoaib/openaccessazania-blog?style=for-the-badge)
 
 
 <!-- TABLE OF CONTENTS -->
@@ -66,71 +59,107 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/yousha-shoaib/resource-dump/main/oaa-blog.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+As someone that is actively involved in academic, activst and free-lance development/teaching spaces I strongly belive that Open Access is paramount to ensuring that access to information remains unrestricted for all.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Open Access Azania is a project I've wanted to start for a long time. I was largely inspired by Aaron Swartz who still to this day remains one of the greatest champions of Open Access even after his tragic passing in 2016.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This blog, I hope, will serve to be more than just a portfolio project and an empty platitude. Hopefull, it blossoms into a sprawling coallation of activists' and ideas from the contient comming together to fight for just access for all!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The Open Access Azania blog would not be possible without any of these open-source, free-to-use frameworks and libraries:
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+[![Next][Next.js]][Next-url] 
+[![React][React.js]][React-url]
+[![ESLint][Eslint]][ESLint-url]
+[![Prisma][Prisma]][Prisma-url]
+[![TypeScript][TypeScript]][TypeScript-url]
+[![HTML5][HTML5]][HTML5-url]
+[![CSS3][CSS3]][CSS3-url]
+[![Vercel][Vercel]][Vercel-url]
+[![TailwindCSS][TailwindCSS]][TailwindCSS-url]
+[![NPM][NPM]][NPM-url]
+[![Postgres][Postgres]][Postgres-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
-## Getting Started
+## Running Project Locally
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you'd like to clone and work on the project locally follow the below instructions.
 
-### Prerequisites
+### Step 1: Install Required Packages
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+All of the packages required are specified in the `package.json` file you just need to run the install script:
 
-### Installation
+```sh
+npm install
+```
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### Step 2: Configuring Prisma & Creating Database
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+You'll need to create a postgres database and host it somewhere. I've used [Railway](https://railway.app) but you can use any cloud hosting provider. Some good alternatives are [Render](https://render.com) & [Heroku](https://heroku.com).
+
+Next you'll need to copy the `DATABASE_URL` and add it to your environment variables file `.env` in the project root.
+
+```
+DATABASE_URL="xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+Now run the `npx prisma migrate dev --name intial_migration` to create the tables in your database.
+
+### Step 3: Setting up Next-Auth with GitHub
+
+First, create a new GitHub app in `Settings > Developer Settings > GitHub Apps > New GitHub App`
+
+Next set the homepage and callback urls to the app url (localhost if running locally)
+
+Generate a new client secret and copy the client id. Store them in the following environment variables
+
+```
+GITHUB_ID="client_id"
+GITHUB_SECRET="client_secret"
+```
+
+Now you need to generate a secret for next-auth. You can do this in the terminal
+
+```sh
+openssl rand hex -32
+``` 
+
+Take the generated secret along with your app url (localhost if running locally) and store them in the following environment variables
+
+```
+NEXTAUTH_URL="app_base_url"
+NEXTAUTH_SECRET="generated_secret"
+```
+
+### Step 4: Setting up UploadThing
+
+You need to create a new app with [UploadThing](https://uploadthing.com) and copy the secret and app_id variables from the API Keys section. Paste the following variables into your `.env` file
+
+```
+UPLOADTHING_SECRET="secret"
+UPLOADTHING_APP_ID="app_id"
+```
+
+### Step 5: Setting up Beehiiv for Newsletters (Optional)
+
+If you'd like to take advantage of the newsletters feature you need to create a new publication and copy the api_key and publication_id variables. Paste the above variables into your `.env` file
+
+```
+BEEHIIV_API_KEY="api_key"
+BEEHIV_PUBLICATION_ID="publication_id"
+```
+
+### Step 6: Run Development Server
+
+Finally, you can now run the development server and access the site at [localhost:3000](http://localhost:3000) using `npm run dev`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,9 +168,10 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+The primary functions of this site are to display and post articles. You can post articles after you have authenticated with GitHub. You can view articles from the following routes:
+* all articles - `blog/all`
+* create article - `blog/new`
+* view specific article - `blog/{post_id}`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,15 +180,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
+- [x] Core: complete README
+- [x] Core: add LICENSE
+- [ ] Fix: fix margin and padding rules for mobile screens
+- [ ] Fix: fix upload and categories button widths in create posts page
+- [ ] Feat: add markdown support for articles
 - [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+    - [ ] Zulu
+    - [ ] Xhosa
+    - [ ] Sesotho
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/yousha-shoaib/openaccessazania-blog/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +217,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GPLv3 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,9 +226,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/yousha-shoaib/openaccessazania-blog](https://github.com/yousha-shoaib/openaccessazania-blog)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,49 +237,50 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+I'd like to acknowledge the following authors and resources for all the help they've provided with putting this project together:
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/yousha-shoaib
+
+[product-screenshot]: https://raw.githubusercontent.com/yousha-shoaib/resource-dump/main/oaa-blog.png
+
+
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+[ESLint]: https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white
+[EsLint-url]: https://eslint.org
+
+[Prisma]: https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
+[Prisma-url]: https://prisma.io
+
+[TypeScript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+[TypeScript-url]: https://typescriptlang.org
+
+[HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[HTML5-url]: https://postgresql.org
+
+[CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[CSS3-url]: https://postgresql.org
+
+[Vercel]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
+[Vercel-url]: https://vercel.com
+
+[TailwindCSS]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[TailwindCSS-url]: https://tailwindcss.org
+
+[NPM]: https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white
+[NPM-url]: https://npmjs.org
+
+[Postgres]: https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white
+[Postgres-url]: https://postgresql.org
