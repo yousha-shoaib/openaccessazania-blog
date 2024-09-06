@@ -15,7 +15,7 @@
     "@prisma/client": "^5.7.1",
     "@uploadthing/react": "^6.1.0",
     "next": "14.0.4",
-    "next-auth": "^4.24.5",
+    "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
     "uploadthing": "^6.1.1"
